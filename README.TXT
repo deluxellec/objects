@@ -11,3 +11,5 @@ commit - a permanent snapshot of your project at a point in time. each commit ha
 commit message - a short description your write to yourself (or others) when you make a commit.
 
 push - upload your local commit(s) to github so they are saved to the cloud.
+
+pull - downloads the latest version of your repo from github to your computer (i.e., any changes you've made elsewhere, like home).
