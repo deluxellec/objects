@@ -49,5 +49,27 @@ public class TurtleDemo
         crush.setPenColor(Color.ORANGE);
         crush.penDown();
         crush.forward(50);
+        crush.forward(100);
+        crush.turnRight();
+        crush.forward(100);
+        /*
+         * this is a compile-time error. (this code doesn't compile)
+         * these are often syntax errors.
+         */
+        //crush.forda(60);
+        /*
+         * this is a run-time error. (this code compiles and runs).
+         * but generates an exception (i.e., error) in most cases, the program crashes
+         */
+        //crush.forward(1/0);
+        /*
+         * this is also a run-time error. (this code compiles and runs).
+         * but turns right instead of left. it doesn't produce the expected output.
+         * i intended for the turtle to turn left.
+         * this is a logical error
+         */
+        crush.turn(90);
+        crush.forward(100);
+        
     }
 }
