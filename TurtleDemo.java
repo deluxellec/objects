@@ -68,8 +68,12 @@ public class TurtleDemo
          * i intended for the turtle to turn left.
          * this is a logical error
          */
+        
+        
+        
         crush.turn(90);
         crush.forward(100);
-        
+        Turtle tachyon = new Turtle(ocean);
+        Color customColor = new Color(102, 77, 122);
     }
 }
