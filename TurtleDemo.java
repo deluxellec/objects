@@ -71,5 +71,14 @@ public class TurtleDemo
         crush.turn(90);
         crush.forward(100);
         
+        /*
+         * algorithm - a series of steps in computer sceicne (programming) that we can follow. must be:
+         *      unambiguous
+         *      executable
+         *      terminating
+         * pseudocode - an informal description of an algorithm, often using the english language or flowcharting
+         *      instead of a programming language.
+         */
+        
     }
 }
