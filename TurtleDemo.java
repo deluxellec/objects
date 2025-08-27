@@ -86,4 +86,10 @@ public class TurtleDemo
          *      instead of a programming language.
          */
     }
+    
+    public static void drawLine()
+    {
+        World ocean = new World();
+        Turtle orfevre = new Turtle(ocean);
+    }
 }
