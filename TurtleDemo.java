@@ -68,8 +68,14 @@ public class TurtleDemo
          * i intended for the turtle to turn left.
          * this is a logical error
          */
+        
+        
+        
         crush.turn(90);
         crush.forward(100);
+        
+        Turtle tachyon = new Turtle(ocean);
+        Color customColor = new Color(102, 77, 122);
         
         /*
          * algorithm - a series of steps in computer sceicne (programming) that we can follow. must be:
@@ -79,6 +85,5 @@ public class TurtleDemo
          * pseudocode - an informal description of an algorithm, often using the english language or flowcharting
          *      instead of a programming language.
          */
-        
     }
 }
